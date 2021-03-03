@@ -1,0 +1,350 @@
+*{
+	padding:0;
+	margin:0;
+	
+}
+header{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	
+}
+.nav{
+	width:960px;
+	height:auto;
+	background:#000;
+	
+}
+.nav ul li{
+	list-style:none;
+	display:inline-block;
+	position:relative;
+	
+}
+
+ .nav ul li a{
+	font-size:20px;
+font-weight:bold;
+color:#fff;
+text-transform:uppercase;	
+	 text-decoration:none;
+	 display:block;
+	 padding:20px 35px;
+	 
+	 
+	 
+	 
+ }
+ 
+ .nav ul li a:hover{
+	 color:yellow;
+	 background:red;
+	 
+	 
+ }
+ 
+ 
+ .nav ul li ul{
+	 
+	 position:absolute;
+	 background: #000;
+	 left:-9999px;
+	 
+ }
+.nav ul li:hover ul{
+	 Left:0px;
+	 
+ }
+ .nav ul li ul li{
+	 width:200px;
+	 border-bottom:1px solid #fff;
+	 
+ }
+ 
+ .banner-cover{
+	 height:50vh;
+	 background-position:center;
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 
+	 
+ }
+  .banner-text{
+	 padding:100px;
+text-align:center;	 
+	  
+	  
+  }
+ 
+ 
+ 
+ 
+ 
+ .banner-text button{
+	 font-size:20px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 padding:20px;
+	 border:0;
+	 background:#000;
+	 color:#fff;
+	 margin:0px 8px;
+	 
+ }
+   .about-logo img{
+	   width:320px;
+	   height:305px;
+	   margin:0px 10px;
+	   margin-bottom:10px;
+	   box-shadow:0px 8px 10px 0px #000;
+	   
+   }
+ .about-text{
+	 width:520px;
+	 height:auto;
+	 padding:0px 20px;
+ }
+ .about-text h3{
+	 font-size:25px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 border-bottom:2px solid #fff;
+	 margin-bottom:20px;
+ }
+ .about-text p{
+	 font-size:16px;
+	 color:gray;
+	 line-height:22px;
+	 
+ }
+ .row{
+	 overflow:auto;
+	 
+	 
+ }
+ 
+ .col{
+	 float:left;
+	 
+	 
+ }
+ 
+ .about-section{
+	 background:#dce7e5;
+	 padding:40px 0px;
+	 margin-top:20px;
+ }
+ 
+ .title{
+	 width:220px;
+	 height:auto;
+	 margin:0 auto;
+	 text-transform:uppercase;
+ }
+ .title h1{
+	 font-size:20px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 letter-spacing:1-x;
+	 border-bottom:2px solid #fff;
+	 text-align:center;
+	 margin-bottom:35px;
+ }
+ 
+ .service{
+	width:280px;
+height:auto;
+border:2px solid #4f1515;	
+	 text-align:center;
+	 display: inline-block;
+	 
+ }
+ 
+ 
+ 
+ 
+ 
+ .service h3{
+	 font-size:20px;
+	 font-weight:bold;
+	 margin-bottom:10px;
+	 text-transform:uppercase;
+ }
+  .service p{
+	  font-size:15px;
+	  color:gray;
+	  line-height:22px;
+	  padding:0px 15px;
+	  
+  }
+ 
+ 
+ .service-section{
+	 background:#b7bbb2;
+	 
+ }
+ 
+.ser-icon{
+	 font-size:40px;
+	 margin-top:10px;
+	 margin-bottom:10px;
+	 color:#black;
+	 transition:.5s;
+ }
+ 
+ 
+ 
+.ser-icon i:hover{
+	 color:yellow;
+	 transform:scale(.8);
+	 
+ }
+.contact{
+	 background:#fff;
+	 padding:15px 15px 15px 80px;
+	 box-shadow:0px 0px 10px #ccc;
+	 width:190px;
+	 position:relative;
+	 display:inline-block;
+	 margin:0px 8px;
+ }
+ 
+ .cont-icon{
+	 position:absolute;
+	 width:50px;
+	 height:50px;
+	 float:left;
+	 top:8px;
+	 left:15px;
+	 background:#222;
+	 text-align:center;
+	 color:#fff;
+	 line-height:50px;
+	 font-size:30px;
+	 transition:.5s;
+	 	 
+ }
+ 
+  .cont-icon i:hover{
+	color:yellow;
+transform:scale(.8);	
+	  
+  }
+.cont-text p{
+	 padding:0;
+	 margin:0;
+	 font-size:18px;
+	 line-height:23px;
+	 
+ }
+.contact-section{
+	background:#cacaca; 
+	 padding:40px 0px;
+	 margin-top:30px;
+ }
+ 
+ 
+ 
+ .contact{
+	margin-top:25px; 
+ }
+ 
+ .title h2{
+	 color:red;
+	 border-bottom:1px solid #fff;
+	 text-align:center;
+ }
+ 
+ .title h2:hover{
+	color:#1F45FC; 
+	 
+ }
+ 
+ .contactform{
+	width:620px;
+height:auto;
+margin:0 auto;
+margin-top:20px;	
+	 
+ }
+ 
+ .inputtag input{
+	font-size:20px;
+text-transform:capitalize;
+padding:10px 10px;
+width:80%;
+border:none;
+margin: 8px 0px;	
+	 
+ }
+ 
+ .inputtag textarea{
+	 width:514px;
+	 height:auto;
+	 border:0;
+	 
+	 
+ }
+ 
+ .button{
+	 width:83%;
+	 padding:10px 0px;
+	 background:#fff;
+	 font-size:20px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 border:0;
+	 margin-top:4px;
+	 background:black;
+	 color:white;
+	 cursor:pointer;
+ }
+ 
+.container{
+	 width:516px;
+	 height:20px;
+	 background:black;
+	 
+ }
+
+
+
+footer{
+	width:960px;
+	margin:0 auto;
+	height:auto;
+	background:#000;
+	color:#ffff;
+	padding:30px 0px;
+	
+}
+
+.footericon{
+	float:right;
+	cursor:pointer;
+	
+
+	
+	
+	
+}
+.footericon i{
+	font-size:30px;
+	padding:0px 10px;
+	transition:.5s;
+}
+
+.footericon i:hover{
+	color:yellow;
+	transform:scale(.8);
+	
+}
+.footertex{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px 20px;
+}
+
+
+
